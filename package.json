@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ihadeed/CordovaYoutubeVideoPlayer.git"
+    "url": "git+https://github.com/Remco75/CordovaYoutubeVideoPlayer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ihadeed/CordovaYoutubeVideoPlayer/issues"
+    "url": "https://github.com/Remco75/CordovaYoutubeVideoPlayer/issues"
   },
-  "homepage": "https://github.com/ihadeed/CordovaYoutubeVideoPlayer#readme"
+  "homepage": "https://github.com/Remco75/CordovaYoutubeVideoPlayer#readme"
 }
