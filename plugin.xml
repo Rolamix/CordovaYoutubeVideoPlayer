@@ -41,8 +41,8 @@
 
         <source-file src="platforms/android/src/com/bunkerpalace/cordova/YouTubeActivity.java" target-dir="src/com/bunkerpalace/cordova"/>
         <source-file src="platforms/android/src/com/bunkerpalace/cordova/YoutubeVideoPlayer.java" target-dir="src/com/bunkerpalace/cordova"/>
-        <lib-file src="platforms/android/libs/openyoutubeactivity.jar" />
-        <lib-file src="platforms/android/libs/YouTubeAndroidPlayerApi.jar" />
+        <source-file src="platforms/android/libs/openyoutubeactivity.jar" target-dir="libs"/>
+        <source-file src="platforms/android/libs/YouTubeAndroidPlayerApi.jar" target-dir="libs"/>
     </platform>
 
     <platform name="ios">
