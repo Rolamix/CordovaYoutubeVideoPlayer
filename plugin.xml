@@ -24,11 +24,11 @@
             </feature>
         </config-file>
 
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
         </config-file>
 
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="com.keyes.youtube.OpenYouTubePlayerActivity" android:screenOrientation="landscape"/>
             <activity
                 android:name="com.bunkerpalace.cordova.YouTubeActivity"
@@ -41,8 +41,8 @@
 
         <source-file src="platforms/android/src/com/bunkerpalace/cordova/YouTubeActivity.java" target-dir="src/com/bunkerpalace/cordova"/>
         <source-file src="platforms/android/src/com/bunkerpalace/cordova/YoutubeVideoPlayer.java" target-dir="src/com/bunkerpalace/cordova"/>
-        <source-file src="platforms/android/libs/openyoutubeactivity.jar" target-dir="libs"/>
-        <source-file src="platforms/android/libs/YouTubeAndroidPlayerApi.jar" target-dir="libs"/>
+        <lib-file src="platforms/android/libs/openyoutubeactivity.jar" />
+        <lib-file src="platforms/android/libs/YouTubeAndroidPlayerApi.jar" />
     </platform>
 
     <platform name="ios">
